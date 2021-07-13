@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;1,200&display=swap" rel="stylesheet">
+    <title>Nemium B</title>
+</head>
+<body>
+    <nav class="fondoinicial"> 
+
+    </nav>
+
+    <section class="inicial">
+   <div id=cajaintroduccion>
+        <h2 id="tituloinicial" style="color: whitesmoke">Curso esencial de HTML y CSS</h2>
+    <p>Este es el inicio de tu carrera como Desarrollador Web, empezarás aprendiendo HTML y CSS para la creación de contenidos, en el nivel 2 aprenderás de componentes y en 3 sobre layouts.</p>
+  </div>
+    <br>
+    </section>
+
+    
+    <aside>
+        <section class="variantes">
+
+     <dt><b>VARIANTES DEL PROYECTO</b></dt> 
+           <dd>Nemium A</dd>
+           <dd id="nemiumB">Nemium B</dd>   
+           <dd>Nemium C</dd>
+           <dd>Nemium D</dd>
+           <dd>Nemium E</dd>   
+           <br>
+           <hr>
+           <br>
+           <br>
+      </section>   
+          
+      <section class="contenido">     
+          <dt><b>CONTENIDO</b></dt>  
+          <details open>
+                <summary >
+                <b>Setup</b>                         
+                </summary>
+              <ol type="1">
+                <li><a href="#cajaGoogle"> Google Chrome</a></li>    
+                <li> Visual Studio Code</li>
+                <li> Figma</li>
+                <li> GitHub</li>
+              </ol>
+            </details>
+           <br>
+           
+            <details >
+                <summary >
+                   <b>Conceptos esenciales del 
+                    Desarrollo Web </b>                  
+                </summary>
+              <ol type="1">
+                <li> Qué es HTML</li>    
+                <li> Etiquetas</li>
+                <li> DOM</li>
+                <li> Semántica</li>
+                <li> Atributos</li>
+                <li> Qué es CSS</li>
+              </ol>
+            </details>
+        </section >
+    </aside>
+
+    <section class="Setup">
+    <h4>Setup</h4>
+     <br>
+     <div id="cajaGoogle">
+      <img id="imgGoogle" src="./assets/chrome.svg" alt="logo de chrome">
+      <h5><b>1. Google Chrome</b></h5>
+    <p>Chrome va a ser el navegador que utilizaremos en el curso por su extenso soporte de nuevos estándares y herramientas de desarrollo avanzadas y de amigable uso.</p>
+    </div>
+      <br>
+      <hr>
+
+      <div id="cajaVS">
+        <img id="imgVS" src="./assets/figma.svg" alt="logo de visual studio Code">  
+      <h5><b>3. Figma</b></h5>
+      <p>Visual Studio Code es el editor de texto más popular y potente del mercado actualmente, su fácil uso y la capacidad de extenderlo por medio de plugins lo hace el complemento perfecto para cualquier programador sin importar el lenguaje en el que se desemvuelva.</p>
+    </div>
+      <br>
+      <hr>
+      
+      <div id="cajaFigma">
+      <img id="Simgfigma"" src="./assets/figma.svg" alt="logo de Figma">
+      <h5><b>2. Visual Studio Code</b></h5>
+      <p>Figma es una la herramienta más popular en la actualidad para entregar diseños a los desarrolladores para su implementación por su fácil uso porque puede ser usado directamente desde el navegador.</p>
+    </div>
+      <br>
+      <hr>
+      
+      <div id="cajaGithub">
+        <img id="imgGithub" src="./assets/github-icon.svg" alt="logo github">
+        <h5><b>4. GitHub</b></h5>
+        <p>Figma es una la herramienta más popular en la actualidad para entregar diseños a los desarrolladores para su implementación por su fácil uso porque puede ser usado directamente desde el navegador.</p>
+      </div>
+        <br>
+        <hr>
+        <br>
+        <hr>
+        <blockquote id="frase">
+          <pre id="palabras">
+            “Este es el inicio de tu carrera como Desarrollador Web”
+
+            - Leonidas Esteban
+          </pre>
+        </blockquote>
+</section>
+
+    <section class="conceptos">
+     <h1><b>Conceptos esenciales del Desarrollo Web</b></h1>
+      <br>
+      <div id="html">
+        <h3><b>HTML</b></h3>
+        <p>Hyper Text Markup Language o Lenguaje de marcas Hipertexto. Es el componente más básico de la web. Define el significado y la estructura del contenido.</p>
+          <blockquote id="codigohtml">
+              <code><pre id="code"><span>
+                &#60;&#33; DOCTYPE html &#62;
+                &#60;html lang="en" &#62;
+                &#60;head &#62;
+                &#60;meta charset="UTF-8"&#62;
+                &#60;meta name="viewport" content="width=device-width, initial-scale=1.0" &#62;
+                &#60;title &#62; Document&#60;/title &#62;
+                &#60;/head&#62;
+                &#60;body&#62;
+                
+                &#60;/body&#62;
+                &#60;/html&#62;
+              </span>
+              </pre></code>
+          </blockquote>
+      </div>
+     <div class="etiquetas">
+       <h3><b>Etiquetas</b></h3>
+       <p>Las etiquetas HTML van a ayudarnos a brindar una estructura y semántica al contenido de nuestro website y cada una tiene características y usos diferentes aunque visualmente den un resultado similar.</p>
+       <p>Muchas etiquetas son fácil de diferencias como los headings o las imágenes y otras diferentes como header, footer, section o div, aquí es donde la semántica será la respuesta y si sabemos un poco de inglés también podremos darnos una pequeña idea de su uso pero en este curso vamos a usar las más importantes y que serán parte de tu día a día como Software Developer.</p>
+     </div>
+     <div class="DOM">
+      <h3><b>DOM</b></h3>
+      <p>El Document Object Model es una estructura de árbol que representará todos nuestros proyectos web como si un árbol genealógico fuera: padres, hijos, hermanos con niveles infinitos. cuando entendemos esta anidación podemos identificar dependencias, herencias en css y que tan complejo es nuestro proyecto.</p>
+      <br>
+      <img id="imgDom" src="./assets/Captura.PNG" alt="esquema de un DOM">
+     </div>
+      <div class="Semantica">
+        <h3><b>Semántica</b></h3>
+        <p>La semántica le brinda sentido a cada elemento existen en un sitio web, algunos elementos será meramente decorativos y no deben significar nada pero otros serán títulos y deberán estar en diferente jerarquías o alguna secciones serán más relevantes que otras, esto ayudará a los motores de búsqueda como Google o Duck Duck Go a diferenciar tu contenido, categorizar y será la herramientas más valiosa para estar en los primeros resultados de búsqueda SEO. También ayudará a la accesibilidad de tu sitio web, para que personas con habilidades diferentes puedan entender cada contenido.</p>
+        <br>
+      </div>
+
+      <div class="atributos">
+        <h3><b>Atributos</b></h3>
+        <p>Los atributos le dan características extra a las etiquetas para complementar información y son pre programadas por el navegador, algunos atributos funcionan en todas las etiquetas de la misma forma como ‘class’ pero otros atributos funcionan en solo alguna etiquetas como src</p>
+        <br>
+      </div>
+      <div class="css">
+        <h3><b>CSS</b></h3>
+          <p>Hojas de Estilo en Cascada (del inglés Cascading Style Sheets) o CSS es el lenguaje de estilos utilizado para describir la presentación de documentos HTML</p>
+        <img src="./assets/css.PNG" alt="imagen representativa de css">
+      </div>
+      <br>
+      <hr>
+      <br>
+      <hr>
+    </section>
+    <section class="Modelodecaja">
+      <div id="explicacion">
+        <h2><b>Modelo de caja</b></h2>
+        <br>
+        <h3><b>El modelo de caja está compuesto por:</b></h3>
+        <p>Chrome va a ser el navegador que utilizaremos en el curso por su extenso soporte de nuevos estándares y herramientas de desarrollo avanzadas y de amigable uso.</p>
+        <br>
+        <pre>
+          <span>
+1. Tamaño del del contenido / ancho y alto
+2. Padding / Relleno
+3. Border / Bordes
+4. Margin / Márgenes
+</span>
+        </pre>
+      </div>
+    <div id="propiedadesfisicas">
+      <h2><b>Propiedades físicas para el modelo de caja:</b></h2>
+      <ul>
+        <li>width/height</li>
+        <li>border / border-top | border-right | border-bottom | border-left</li>
+        <li>border / border-top | border-right | border-bottom | border-left</li>
+        <li>padding / padding-top | padding-right | padding-bottom | padding-left</li>
+      </ul>
+    </div>
+    <div id="propiedadeslogicas">
+       <ul>
+         <li>inline-size / block-size</li>
+         <li>margin-block | margin-inline | margin-block-start | margin-block-end | margin-inline-start | margin-inline-end</li>
+         <li>border-block | border-inline | border-block-start | border-block-end | border-inline-start | border-inline-end</li>
+         <li>padding-block | padding-inline | padding-block-start | padding-block-end | padding-inline-start | padding-inline-end</li>
+       </ul>   
+    </div>
+    <div id="modelodecajaconimagen">
+      <label id="txtgafas"for="imgleonidas">Modelo de caja</label>
+      <img id="imgleonidas" src="./assets/gafas.PNG" alt="imagen de chico con gafas de sol">
+    </div>
+    <p>Si tienes alguna pregunta escríbeme a <a href="https://leonidasesteban.github.io/responsive-design-portafolio/">me@leonidasesteban.com</a></p>
+    <div id="formulariodesubscripcion">
+      <label id="form"for="formulario">Suscríbete a nuestro newsletter</label>
+      <form id="formulario">
+         <input type="text" placeholder="Nombre" name="Palito" id="inputnombre">
+         <br>
+         <input type="text" placeholder="Correo electrónico" id="inputcorreo"> 
+         <br>
+         <button id="btnsubida">Suscribirme</button>
+      </form>
+    </div>
+    </section>
+       <section>
+        <footer>
+          <pre id="reserva"><span>&copy; Leonidas Esteban 2021 </span> </pre>
+
+          <span>
+            <img id="insta" src="./assets/instagram.png" alt="logo de instagram">
+            <img id="face" src="./assets/facebook.png" alt="logo de facebook">
+            <img id="twit" src="./assets/iconmonstr-twitter-2.svg" alt="logo de twiter">
+          </span>
+        </footer>
+       </section>
+      
+      </body>
+
+</html>

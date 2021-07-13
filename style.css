@@ -1,0 +1,887 @@
+html{
+    font-family: Nunito;
+}
+.fondoinicial {
+    position: absolute;
+    width: 1366px;
+    height: 350px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(96.07deg, #314755 30.63%, #26A0DA 102.18%);    
+}
+.inicial{
+width: 636px;
+height: 262px;
+left: 530px;
+right: 200px;
+}
+.inicial p{
+    position: static;
+width: 636px;
+height: 72px;
+left: 0px;
+top: 190px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 24px;
+/* or 141% */
+
+
+color: #A5A3A5;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 16px 0px;
+}
+
+#tituloinicial{
+    width: 636px;
+    height: 174px;
+    left: 530px;
+    top: 360px;
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 87px;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+h1 ,h2,h3,h4,h5,h6 ,dt{
+ color: white;
+}
+dd{
+width: 66px;
+height: 24px;
+left: 8px;
+top: 8px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+
+color: #A5A3A5;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}
+p {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 24px;
+    /* or 141% */
+    
+    
+    color: #A5A3A5;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+div{
+    left: 530px;
+    right:200px;
+}
+.inicial {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: static;
+width: 636px;
+height: 262px;
+left: 530px;
+top: 414px;
+} /*caja introductoria*/
+aside{
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 306px;
+    height: 240px;
+    left: 200px;
+    top: 414px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 306px;
+    height: 304px;
+    left: 200px;
+    top: 758px;
+    position: absolute;
+}
+.variantes{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: relative;
+width: 306px;
+height: 240px;
+left: 200px;
+top: 414px;
+}
+.variantes dt{
+    position: static;
+width: 176px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 16px 0px;
+}
+.variantes dd{
+    position: static;
+    width: 66px;
+    height: 24px;
+    left: 8px;
+    top: 8px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    
+    
+    color: #A5A3A5;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+#nemiumB {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    
+    position: relative;
+    width: 306px;
+    height: 40px;
+    left: 0px;
+    top: 40px;
+    
+   
+    background: #251F24;
+    border-radius: 4px;
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+.contenido {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 306px;
+height: 304px;
+left: 200px;
+top: 758px;
+}
+.contenido dt{
+    position: static;
+width: 84px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+
+color: #FFFFFF;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 24px 0px;
+}
+.contenido summary{
+    position: static;
+    font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+
+color: #FFFFFF;
+}
+.contenido ol,li,a{
+    color:#A5A3A5;
+}
+.contenido li{
+    position: static;
+    font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+
+color: #A5A3A5;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}
+a:hover{
+    color: rgb(80, 9, 146);
+    background-color: hsl(157, 78%, 52%);
+}
+body {
+    background: #101827;    
+    width: 1366px;
+    height: auto;
+  }
+  .Setup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    width: 636px;
+    height: 1151px;
+    left: 530px;
+    top: 756px;
+  }
+  .Setup h4{
+    position: static;
+    width: 636px;
+    height: 55px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 55px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 40px 0px;
+  }
+  .Setup h5{
+    position: static;
+  width: 636px;
+  height: 44px;
+  left: 0px;
+  top: 96px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    /* identical to box height */
+    color: #FFFFFF;
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+  }
+  .Setup p{
+    position: static;
+    width: 636px;
+    height: 96px;
+    left: 0px;
+    top: 156px;
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 24px;
+    /* or 141% */
+    
+    
+    color: #A5A3A5;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+  }
+  .Setup img{
+    position: static;
+    height: 80px;
+    background-color: #FFFFFF;
+  }
+#cajaGoogle{
+left: 530px;
+right: 200px;
+height: 180px;
+}
+#cajaVS{
+    left: 530px;
+    right: 200px;
+    height: 220px;
+}
+#cajaFigma{
+    left: 530px;
+    right: 200px;
+    height: 196px;
+}
+#cajaGithub{
+    left: 530px;
+    right: 200px;
+    height: 220px;
+}
+  #frase{
+    padding: 24px;    
+    width: 636px;
+    height: 128px;
+    left: 530px;
+    right: auto;
+    top: auto;
+    background: #3A3539;
+    border-radius: 8px;
+  }
+  #palabras{
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 133% */
+color: #FFFFFF;
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 16px 0px;
+  }
+.conceptos h1 {
+  
+position: static;
+width: 636px;
+height: 110px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 55px;
+
+color: #FFFFFF;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 40px 0px;
+}
+#html{
+    left: 530px;
+    right: 200px;
+    height: auto;
+}
+.conceptos h3{
+    position: static;
+width: 636px;
+height: 44px;
+font-family: Nunito;
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 44px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 16px 0px;
+}
+.conceptos p{
+    position: static;
+width: 636px;
+height: 48px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 24px;
+/* or 141% */
+
+
+color: #A5A3A5;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 16px 0px;
+}
+#codigohtml{
+    
+    padding: 40px;
+    
+    position: static;
+    width: 636px;
+    height: 368px;
+    left: 530px;
+    right: 220px;
+    top: auto;
+    
+    background: #3A3539;
+    border-radius: 8px;
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+#code{
+    padding:40px;
+    right: auto;
+    font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+position: static;
+width: 511px;
+height: 288px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}
+.etiquetas h3{
+    position: static;
+width: 636px;
+height: 44px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 44px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 16px 0px;
+}
+.etiquetas p{
+    width: auto;
+height: auto;
+left: auto;
+top: auto;
+    position: static;
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 24px;
+/* or 141% */
+
+
+color: #A5A3A5;
+
+
+/* Inside Auto Layout */
+order: 2;
+align-self: stretch;
+margin: 16px 0px;
+}
+.DOM {
+    
+    right: 200px;
+    left: 530px;
+    top: inherit;
+}
+.DOM h3 ,.Semantica h3 ,.atributos h3, .css h3{
+ /* DOM */
+position: static;
+width: 636px;
+height: 44px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 44px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+
+/* Inside Auto Layout */
+align-self: stretch;
+margin: 16px 0px;
+}
+.DOM p, .Semantica p ,.atributos p ,.css p{
+    position: static;
+width: 636px;
+height: 96px;
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 24px;
+/* or 141% */
+color: #A5A3A5;
+/* Inside Auto Layout */
+order: 1;
+align-self: stretch;
+margin: 16px 0px;
+}
+.DOM img .css img{ 
+position: static;
+width: 636px;
+height: 332.13px;
+
+background: #FEC62E;
+
+/* Inside Auto Layout */
+order: 2;
+margin: 16px 0px;
+}
+.Modelodecaja{
+    color: #A5A3A5;
+    position: absolute;
+width: 636px;
+height: 1701px;
+left: 530px;
+top: 4749px;
+}
+.Modelodecaja pre , .Modelodecaja li ,.Modelodecaja p{
+    position: static;
+    width: 636px;
+    height: auto;
+    left: auto;
+
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 24px;
+    /* identical to box height, or 141% */
+    
+    
+    color: #A5A3A5;
+    
+    
+    /* Inside Auto Layout */
+    margin: 0px 16px;
+}
+.Modelodecaja h2{
+    position: static;
+    width: 636px;
+    height: 44px;
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside Auto Layout */
+    margin: 16px 0px;
+}
+.Modelodecaja h3{
+    position: static;
+    width: 636px;
+    height: 33px;
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside Auto Layout */
+    margin: 16px 0px;
+}
+#propiedadesfisicas ,#propiedadeslogicas,#modelodecajaconimagen,#formulariodesubscripcion{
+position: static;
+width: 636px;
+height: auto;
+right: 200;
+left: 530;
+}
+#txtgafas{
+position: static;
+width: 636px;
+height: 33px;
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+color: #FFFFFF;
+/* Inside Auto Layout */
+margin: 16px 0px;
+}
+#imgleonidas{
+position: absolute;
+width: 636px;
+height: 371px;
+}
+#form{
+position: static;
+width: 636px;
+height: 33px;
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+color: #FFFFFF;
+/* Inside Auto Layout */
+margin: 16px 0px;
+}
+#inputnombre{
+    border: white;
+    height: 24px;
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    
+    color: #FFFFFF;
+    /* Inside Auto Layout */
+    margin: 0px 10px;
+    background-color: #101827;
+}
+#inputcorreo{
+/* Correo electrónico */
+border: white;
+position: static;
+height: 24px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+color: #FFFFFF;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+margin: 0px 10px;
+background-color: #101827;
+}
+#btnsubida{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 16px;
+    
+    position: static;
+    width: 636px;
+    height: 48px;
+    left: 0px;
+    top: 144px;
+    
+    background: #157EFB;
+    border-radius: 8px;
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+    color: white;
+    font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+}
+footer{
+    width: 1366px;
+    height: 174px;
+    left: 0%;
+    right: 0%;
+    background: #FFFFFF;
+}
+#reserva{
+
+    position: static;
+    width: 372px;
+    height: 44px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    
+    color: #251F24;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+#insta{
+    width: 18px;
+    height: 18px;
+    left: 637px;
+}
+#face{
+    left: 22px;
+    width: 18px;
+    height: 18px;    
+}
+#twit{
+    left: 22px;
+    width: 18px;
+    height: 18px;
+}
